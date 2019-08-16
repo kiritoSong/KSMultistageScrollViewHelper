@@ -1,11 +1,7 @@
 # KSMultistageScrollViewHelper
 处理scrollView嵌套、cell嵌套webView、自适应高度的webView
 
-
-
-
-![](https://upload-images.jianshu.io/upload_images/1552225-cfd76d4d0bb55f55.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+## [简书](https://www.jianshu.com/p/17ad0bc40c4f)
 
 - **前言**
 - **让Webview完全展开**
