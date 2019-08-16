@@ -8,6 +8,12 @@
 
 #import "HtmlTableViewCell.h"
 
+@interface HtmlTableViewCell ()
+
+
+
+@end
+
 @implementation HtmlTableViewCell
 
 - (void)awakeFromNib {
@@ -21,4 +27,25 @@
     // Configure the view for the selected state
 }
 
+- (void)layoutSubviews {
+    self.webView.frame = self.contentView.bounds;
+}
+
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        self.contentView.backgroundColor = [UIColor orangeColor];
+        [self.contentView addSubview:self.webView];
+    }
+    return self;
+}
+
+- (WKWebView *)webView {
+    if (!_webView) {
+        _webView = [[WKWebView alloc]init];
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://time.geekbang.org/library?category=1"]];
+        [_webView loadRequest:request];
+    }
+    return _webView;
+}
 @end

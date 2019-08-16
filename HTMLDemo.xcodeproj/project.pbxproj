@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017F2B323050888008AD9BD /* HtmlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0017F2B223050888008AD9BD /* HtmlTableViewCell.m */; };
 		004C3C202302881B00AE7F28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C3C1F2302881B00AE7F28 /* AppDelegate.m */; };
 		004C3C232302881B00AE7F28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C3C222302881B00AE7F28 /* ViewController.m */; };
 		004C3C262302881B00AE7F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004C3C242302881B00AE7F28 /* Main.storyboard */; };
@@ -15,6 +16,19 @@
 		004C3C2E2302881F00AE7F28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C3C2D2302881F00AE7F28 /* main.m */; };
 		004C3C382302881F00AE7F28 /* HTMLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C3C372302881F00AE7F28 /* HTMLDemoTests.m */; };
 		004C3C432302881F00AE7F28 /* HTMLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004C3C422302881F00AE7F28 /* HTMLDemoUITests.m */; };
+		00797B6B23067C4C00F24874 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B6A23067C4C00F24874 /* FirstViewController.m */; };
+		00797B6F23067E2100F24874 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B6E23067E2100F24874 /* SecondViewController.m */; };
+		00797B722306815000F24874 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B712306815000F24874 /* ThirdViewController.m */; };
+		00797B752306823A00F24874 /* KSAdaptiveHTMLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B742306823A00F24874 /* KSAdaptiveHTMLCell.m */; };
+		00797B78230684A100F24874 /* KSAdaptiveHtmlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B77230684A100F24874 /* KSAdaptiveHtmlView.m */; };
+		00797B7B2306888600F24874 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B7A2306888600F24874 /* FourthViewController.m */; };
+		00797B7E230689BB00F24874 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00797B7D230689BB00F24874 /* FifthViewController.m */; };
+		0093190723053BB700DC2424 /* KSMultistageScrollViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093190623053BB700DC2424 /* KSMultistageScrollViewHelper.m */; };
+		0093191023055A6B00DC2424 /* KSMultistageScrollViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093190F23055A6B00DC2424 /* KSMultistageScrollViewProxy.m */; };
+		0093192023055C9800DC2424 /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093191F23055C9800DC2424 /* ScrollViewViewController.m */; };
+		00931923230560F700DC2424 /* KSMultistageSuperTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00931922230560F700DC2424 /* KSMultistageSuperTableView.m */; };
+		009319262305612B00DC2424 /* KSMultistageSuperScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009319242305612A00DC2424 /* KSMultistageSuperScrollView.m */; };
+		30541C6ACCC16557F2924CA9 /* libPods-HTMLDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1414372AF7D3689BC4E1CD0C /* libPods-HTMLDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0017F2B123050888008AD9BD /* HtmlTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HtmlTableViewCell.h; sourceTree = "<group>"; };
+		0017F2B223050888008AD9BD /* HtmlTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlTableViewCell.m; sourceTree = "<group>"; };
 		004C3C1B2302881B00AE7F28 /* HTMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004C3C1E2302881B00AE7F28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		004C3C1F2302881B00AE7F28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,33 @@
 		004C3C3E2302881F00AE7F28 /* HTMLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004C3C422302881F00AE7F28 /* HTMLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLDemoUITests.m; sourceTree = "<group>"; };
 		004C3C442302881F00AE7F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00797B6923067C4C00F24874 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		00797B6A23067C4C00F24874 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		00797B6D23067E2100F24874 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		00797B6E23067E2100F24874 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		00797B702306815000F24874 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		00797B712306815000F24874 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		00797B732306823A00F24874 /* KSAdaptiveHTMLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAdaptiveHTMLCell.h; sourceTree = "<group>"; };
+		00797B742306823A00F24874 /* KSAdaptiveHTMLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAdaptiveHTMLCell.m; sourceTree = "<group>"; };
+		00797B76230684A100F24874 /* KSAdaptiveHtmlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAdaptiveHtmlView.h; sourceTree = "<group>"; };
+		00797B77230684A100F24874 /* KSAdaptiveHtmlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAdaptiveHtmlView.m; sourceTree = "<group>"; };
+		00797B792306888600F24874 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		00797B7A2306888600F24874 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		00797B7C230689BB00F24874 /* FifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		00797B7D230689BB00F24874 /* FifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		0093190523053BB700DC2424 /* KSMultistageScrollViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMultistageScrollViewHelper.h; sourceTree = "<group>"; };
+		0093190623053BB700DC2424 /* KSMultistageScrollViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMultistageScrollViewHelper.m; sourceTree = "<group>"; };
+		0093190E23055A6B00DC2424 /* KSMultistageScrollViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMultistageScrollViewProxy.h; sourceTree = "<group>"; };
+		0093190F23055A6B00DC2424 /* KSMultistageScrollViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMultistageScrollViewProxy.m; sourceTree = "<group>"; };
+		0093191E23055C9800DC2424 /* ScrollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		0093191F23055C9800DC2424 /* ScrollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
+		00931921230560F700DC2424 /* KSMultistageSuperTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMultistageSuperTableView.h; sourceTree = "<group>"; };
+		00931922230560F700DC2424 /* KSMultistageSuperTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMultistageSuperTableView.m; sourceTree = "<group>"; };
+		009319242305612A00DC2424 /* KSMultistageSuperScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMultistageSuperScrollView.m; sourceTree = "<group>"; };
+		009319252305612B00DC2424 /* KSMultistageSuperScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMultistageSuperScrollView.h; sourceTree = "<group>"; };
+		0C27BE146EBF05B44E3759F8 /* Pods-HTMLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLDemo.debug.xcconfig"; path = "Target Support Files/Pods-HTMLDemo/Pods-HTMLDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1414372AF7D3689BC4E1CD0C /* libPods-HTMLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTMLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B910D650BF9774A69EC9011 /* Pods-HTMLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLDemo.release.xcconfig"; path = "Target Support Files/Pods-HTMLDemo/Pods-HTMLDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30541C6ACCC16557F2924CA9 /* libPods-HTMLDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,8 @@
 				004C3C362302881F00AE7F28 /* HTMLDemoTests */,
 				004C3C412302881F00AE7F28 /* HTMLDemoUITests */,
 				004C3C1C2302881B00AE7F28 /* Products */,
+				A23091732CC4C4A64E900DEE /* Pods */,
+				E6922C4F9004DE0AC2E028B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,16 @@
 		004C3C1D2302881B00AE7F28 /* HTMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0093190423053B9D00DC2424 /* KSMultistageScrollViewHelper */,
+				0093191723055C6200DC2424 /* KSMultistageSuperScrollViews */,
+				00931927230564AD00DC2424 /* KSAdaptiveHtmlViews */,
+				00797B6C23067DFD00F24874 /* ViewControllers */,
 				004C3C1E2302881B00AE7F28 /* AppDelegate.h */,
 				004C3C1F2302881B00AE7F28 /* AppDelegate.m */,
 				004C3C212302881B00AE7F28 /* ViewController.h */,
 				004C3C222302881B00AE7F28 /* ViewController.m */,
+				0017F2B123050888008AD9BD /* HtmlTableViewCell.h */,
+				0017F2B223050888008AD9BD /* HtmlTableViewCell.m */,
 				004C3C242302881B00AE7F28 /* Main.storyboard */,
 				004C3C272302881E00AE7F28 /* Assets.xcassets */,
 				004C3C292302881E00AE7F28 /* LaunchScreen.storyboard */,
@@ -132,6 +184,75 @@
 			path = HTMLDemoUITests;
 			sourceTree = "<group>";
 		};
+		00797B6C23067DFD00F24874 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00797B6923067C4C00F24874 /* FirstViewController.h */,
+				00797B6A23067C4C00F24874 /* FirstViewController.m */,
+				00797B6D23067E2100F24874 /* SecondViewController.h */,
+				00797B6E23067E2100F24874 /* SecondViewController.m */,
+				00797B702306815000F24874 /* ThirdViewController.h */,
+				00797B712306815000F24874 /* ThirdViewController.m */,
+				00797B792306888600F24874 /* FourthViewController.h */,
+				00797B7A2306888600F24874 /* FourthViewController.m */,
+				00797B7C230689BB00F24874 /* FifthViewController.h */,
+				00797B7D230689BB00F24874 /* FifthViewController.m */,
+				0093191E23055C9800DC2424 /* ScrollViewViewController.h */,
+				0093191F23055C9800DC2424 /* ScrollViewViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0093190423053B9D00DC2424 /* KSMultistageScrollViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0093190523053BB700DC2424 /* KSMultistageScrollViewHelper.h */,
+				0093190623053BB700DC2424 /* KSMultistageScrollViewHelper.m */,
+				0093190E23055A6B00DC2424 /* KSMultistageScrollViewProxy.h */,
+				0093190F23055A6B00DC2424 /* KSMultistageScrollViewProxy.m */,
+			);
+			path = KSMultistageScrollViewHelper;
+			sourceTree = "<group>";
+		};
+		0093191723055C6200DC2424 /* KSMultistageSuperScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				00931921230560F700DC2424 /* KSMultistageSuperTableView.h */,
+				00931922230560F700DC2424 /* KSMultistageSuperTableView.m */,
+				009319252305612B00DC2424 /* KSMultistageSuperScrollView.h */,
+				009319242305612A00DC2424 /* KSMultistageSuperScrollView.m */,
+			);
+			path = KSMultistageSuperScrollViews;
+			sourceTree = "<group>";
+		};
+		00931927230564AD00DC2424 /* KSAdaptiveHtmlViews */ = {
+			isa = PBXGroup;
+			children = (
+				00797B76230684A100F24874 /* KSAdaptiveHtmlView.h */,
+				00797B77230684A100F24874 /* KSAdaptiveHtmlView.m */,
+				00797B732306823A00F24874 /* KSAdaptiveHTMLCell.h */,
+				00797B742306823A00F24874 /* KSAdaptiveHTMLCell.m */,
+			);
+			path = KSAdaptiveHtmlViews;
+			sourceTree = "<group>";
+		};
+		A23091732CC4C4A64E900DEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C27BE146EBF05B44E3759F8 /* Pods-HTMLDemo.debug.xcconfig */,
+				1B910D650BF9774A69EC9011 /* Pods-HTMLDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6922C4F9004DE0AC2E028B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1414372AF7D3689BC4E1CD0C /* libPods-HTMLDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 004C3C472302881F00AE7F28 /* Build configuration list for PBXNativeTarget "HTMLDemo" */;
 			buildPhases = (
+				442E7CFE2BDC1206B91A5128 /* [CP] Check Pods Manifest.lock */,
 				004C3C172302881B00AE7F28 /* Sources */,
 				004C3C182302881B00AE7F28 /* Frameworks */,
 				004C3C192302881B00AE7F28 /* Resources */,
@@ -257,14 +379,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		442E7CFE2BDC1206B91A5128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTMLDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		004C3C172302881B00AE7F28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00797B7E230689BB00F24874 /* FifthViewController.m in Sources */,
+				009319262305612B00DC2424 /* KSMultistageSuperScrollView.m in Sources */,
+				00797B6F23067E2100F24874 /* SecondViewController.m in Sources */,
+				00797B752306823A00F24874 /* KSAdaptiveHTMLCell.m in Sources */,
+				0093191023055A6B00DC2424 /* KSMultistageScrollViewProxy.m in Sources */,
+				0093190723053BB700DC2424 /* KSMultistageScrollViewHelper.m in Sources */,
+				00931923230560F700DC2424 /* KSMultistageSuperTableView.m in Sources */,
+				00797B7B2306888600F24874 /* FourthViewController.m in Sources */,
+				00797B722306815000F24874 /* ThirdViewController.m in Sources */,
 				004C3C232302881B00AE7F28 /* ViewController.m in Sources */,
+				0017F2B323050888008AD9BD /* HtmlTableViewCell.m in Sources */,
+				00797B6B23067C4C00F24874 /* FirstViewController.m in Sources */,
 				004C3C2E2302881F00AE7F28 /* main.m in Sources */,
+				00797B78230684A100F24874 /* KSAdaptiveHtmlView.m in Sources */,
 				004C3C202302881B00AE7F28 /* AppDelegate.m in Sources */,
+				0093192023055C9800DC2424 /* ScrollViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +593,13 @@
 		};
 		004C3C482302881F00AE7F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C27BE146EBF05B44E3759F8 /* Pods-HTMLDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BVGD2SKB2;
 				INFOPLIST_FILE = HTMLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +612,13 @@
 		};
 		004C3C492302881F00AE7F28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B910D650BF9774A69EC9011 /* Pods-HTMLDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5BVGD2SKB2;
 				INFOPLIST_FILE = HTMLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
